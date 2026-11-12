@@ -5,7 +5,7 @@ export const STUDIO_INFO = {
   established: 'October 2026',
   location: 'Shamli, Uttar Pradesh',
   country: 'India',
-  deliveryScope: 'Pan India via DTDC courier · Local pickup in Shamli',
+  deliveryScope: 'Free shipping across India via DTDC · Local pickup in Shamli',
   preparationTime: '6–7 days standard preparation',
   deliveryTransitTime: '3–4 days after dispatch via DTDC',
   bulkMoq: '15 pieces minimum order quantity',
@@ -36,8 +36,8 @@ export const PRODUCTS = [
     id: 'pencil',
     catalogCode: 'OBJ—01',
     name: 'Pencil-Shaped Pen Holder',
-    price: 499,
-    formattedPrice: '₹499',
+    price: 599,
+    formattedPrice: '₹599',
     category: 'Desk Organiser',
     shortTag: 'Colour + Name Personalised',
     description:
@@ -46,14 +46,14 @@ export const PRODUCTS = [
     dimensionsHint: 'Crafted to order · 6–7 days prep',
     image: '/assets/extracted/pencilHolder.jpg',
     whatsappPresetText:
-      'Hi Ritika, I would like to enquire about the Pencil-Shaped Pen Holder (₹499).',
+      'Hi Ritika, I would like to enquire about the Pencil-Shaped Pen Holder (₹599).',
   },
   {
     id: 'initial',
     catalogCode: 'OBJ—02',
     name: 'Initial Letter Pen Stand',
-    price: 549,
-    formattedPrice: '₹549',
+    price: 649,
+    formattedPrice: '₹649',
     category: 'Monogram Stand',
     shortTag: 'Alphabet + Name Detail',
     description:
@@ -62,14 +62,14 @@ export const PRODUCTS = [
     dimensionsHint: 'Crafted to order · 6–7 days prep',
     image: '/assets/extracted/initialStand.jpg',
     whatsappPresetText:
-      'Hi Ritika, I would like to enquire about the Initial Letter Pen Stand (₹549).',
+      'Hi Ritika, I would like to enquire about the Initial Letter Pen Stand (₹649).',
   },
   {
     id: 'plaque',
     catalogCode: 'OBJ—03',
     name: '2-in-1 Name Desk Plaque',
-    price: 749,
-    formattedPrice: '₹749',
+    price: 849,
+    formattedPrice: '₹849',
     category: 'Dual-Purpose Plaque',
     shortTag: 'Desk Display + Fridge Magnet',
     description:
@@ -78,14 +78,14 @@ export const PRODUCTS = [
     dimensionsHint: 'Crafted to order · 6–7 days prep',
     image: '/assets/extracted/namePlaque.jpg',
     whatsappPresetText:
-      'Hi Ritika, I would like to enquire about the 2-in-1 Name Desk Plaque (₹749).',
+      'Hi Ritika, I would like to enquire about the 2-in-1 Name Desk Plaque (₹849).',
   },
   {
     id: 'long',
     catalogCode: 'OBJ—04',
     name: 'Personalised Long Pen Stand',
-    price: 750,
-    formattedPrice: '₹750',
+    price: 850,
+    formattedPrice: '₹850',
     category: 'Statement Desk Stand',
     shortTag: 'Name + Base Message',
     description:
@@ -94,7 +94,7 @@ export const PRODUCTS = [
     dimensionsHint: 'Crafted to order · 6–7 days prep',
     image: '/assets/extracted/longStand.jpg',
     whatsappPresetText:
-      'Hi Ritika, I would like to enquire about the Personalised Long Pen Stand (₹750).',
+      'Hi Ritika, I would like to enquire about the Personalised Long Pen Stand (₹850).',
   },
 ];
 
@@ -135,8 +135,8 @@ export const POLICIES = [
     id: 'shipping',
     index: '03',
     title: 'Shipping & pickup',
-    summary: 'Area-based courier rates · Shamli local pickup available',
-    body: 'Shipping charges are calculated according to the delivery area and parcel size. Free shipping is not offered. Local pickup is available in Shamli by arrangement.',
+    summary: 'Free shipping across India · Shamli local pickup available',
+    body: 'Free shipping is available across India via DTDC. Local pickup is available in Shamli by arrangement.',
   },
   {
     id: 'customisation',
@@ -188,7 +188,7 @@ export const FAQS = [
     category: 'Delivery & Pickup',
     question: 'Do you deliver across India?',
     answer:
-      'Yes. Orders are shipped across India through DTDC. Shipping charges depend on the destination and parcel size.',
+      'Yes. Free shipping is available across India through DTDC.',
   },
   {
     id: 'faq-5',

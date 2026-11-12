@@ -107,7 +107,7 @@ export function buildOrderWhatsAppMessage(input) {
     `Delivery preference: ${input.delivery}`,
     `Bulk / gift packaging: ${input.bulk || 'No'}`,
     '',
-    'Please confirm availability and the final payable amount, including shipping. I understand 100% advance payment is required and my order is confirmed only after payment is received and verified.',
+    'Please confirm availability and the final payable amount. Free shipping is available across India. I understand 100% advance payment is required and my order is confirmed only after payment is received and verified.',
   ];
 
   return lines.join('\n');

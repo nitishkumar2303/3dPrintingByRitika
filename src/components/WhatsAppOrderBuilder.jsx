@@ -196,8 +196,7 @@ export const WhatsAppOrderBuilder = ({ formState, onChangeFormState }) => {
                   </span>
                 </div>
                 <p className="text-xs text-[#57524C] leading-relaxed">
-                  Shipping charges are extra and depend on your delivery area and parcel size.
-                  Ritika will confirm the final total on WhatsApp.
+                  Free shipping is available across India. Ritika will confirm the final total on WhatsApp.
                 </p>
               </div>
 
@@ -233,20 +232,20 @@ export const WhatsAppOrderBuilder = ({ formState, onChangeFormState }) => {
                   className="w-full bg-[#F6F3EC] border border-[#DFD9CE] focus:border-[#191715] px-4 py-3.5 text-sm text-[#191715] font-medium focus:outline-none"
                 >
                   <option value="">Choose a product</option>
-                  <option value="pencil">Pencil-Shaped Pen Holder — ₹499</option>
-                  <option value="initial">Initial Letter Pen Stand — ₹549</option>
-                  <option value="plaque">2-in-1 Name Desk Plaque — ₹749</option>
-                  <option value="long">Personalised Long Pen Stand — ₹750</option>
+                  <option value="pencil">Pencil-Shaped Pen Holder — ₹599</option>
+                  <option value="initial">Initial Letter Pen Stand — ₹649</option>
+                  <option value="plaque">2-in-1 Name Desk Plaque — ₹849</option>
+                  <option value="long">Personalised Long Pen Stand — ₹850</option>
                   <option value="custom">Other / Custom requirement (quote needed)</option>
                 </select>
 
                 {/* Quick Tap Selector Strip */}
                 <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 pt-1">
                   {[
-                    { id: 'pencil', price: '₹499', shortLabel: 'Pencil Holder' },
-                    { id: 'initial', price: '₹549', shortLabel: 'Initial Stand' },
-                    { id: 'plaque', price: '₹749', shortLabel: 'Name Plaque' },
-                    { id: 'long', price: '₹750', shortLabel: 'Long Stand' },
+                    { id: 'pencil', price: '₹599', shortLabel: 'Pencil Holder' },
+                    { id: 'initial', price: '₹649', shortLabel: 'Initial Stand' },
+                    { id: 'plaque', price: '₹849', shortLabel: 'Name Plaque' },
+                    { id: 'long', price: '₹850', shortLabel: 'Long Stand' },
                   ].map((item) => (
                     <button
                       key={item.id}
@@ -528,8 +527,8 @@ export const WhatsAppOrderBuilder = ({ formState, onChangeFormState }) => {
                   />
                   <span className="text-xs sm:text-sm text-[#57524C] leading-relaxed">
                     I understand that <strong className="text-[#191715]">100% advance payment</strong>{' '}
-                    is required, order confirmation happens only after payment verification, shipping
-                    charges are extra based on area, preparation takes{' '}
+                    is required, order confirmation happens only after payment verification, free
+                    shipping is available across India, preparation takes{' '}
                     <strong className="text-[#191715]">6–7 days</strong>, and customised orders
                     cannot be cancelled, returned or refunded.
                   </span>

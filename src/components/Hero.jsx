@@ -100,7 +100,7 @@ export const Hero = ({ onQuickConfigureProduct }) => {
                   CATALOGUE RANGE
                 </div>
                 <div className="font-mono-tech text-lg sm:text-xl font-semibold text-[#191715] mt-1">
-                  ₹499 – ₹750
+                  ₹599 – ₹850
                 </div>
                 <div className="text-xs text-[#57524C] mt-0.5">+ Custom quotes</div>
               </div>

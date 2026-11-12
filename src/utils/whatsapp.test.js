@@ -10,15 +10,15 @@ import {
 describe('WhatsApp Order & Pricing Logic (JS)', () => {
   it('calculates exact subtotals for standard catalog products', () => {
     const pencil = calculateOrderSubtotal('pencil', 2);
-    assert.equal(pencil.unitPrice, 499);
-    assert.equal(pencil.subtotal, 998);
-    assert.equal(pencil.formattedTotal, '₹998');
+    assert.equal(pencil.unitPrice, 599);
+    assert.equal(pencil.subtotal, 1198);
+    assert.equal(pencil.formattedTotal, '₹1,198');
     assert.equal(pencil.isCustomQuote, false);
 
     const longStandBulk = calculateOrderSubtotal('long', 15);
-    assert.equal(longStandBulk.unitPrice, 750);
-    assert.equal(longStandBulk.subtotal, 11250);
-    assert.equal(longStandBulk.formattedTotal, '₹11,250');
+    assert.equal(longStandBulk.unitPrice, 850);
+    assert.equal(longStandBulk.subtotal, 12750);
+    assert.equal(longStandBulk.formattedTotal, '₹12,750');
   });
 
   it('handles custom quote selection and empty selection', () => {
@@ -35,10 +35,10 @@ describe('WhatsApp Order & Pricing Logic (JS)', () => {
 
   it('clamps invalid quantities to 1 safely', () => {
     const neg = calculateOrderSubtotal('initial', -3);
-    assert.equal(neg.subtotal, 549);
+    assert.equal(neg.subtotal, 649);
 
     const nanVal = calculateOrderSubtotal('plaque', Number.NaN);
-    assert.equal(nanVal.subtotal, 749);
+    assert.equal(nanVal.subtotal, 849);
   });
 
   it('validates required customer fields and policy agreement', () => {
@@ -101,8 +101,8 @@ describe('WhatsApp Order & Pricing Logic (JS)', () => {
     const msg = buildOrderWhatsAppMessage(sample);
     assert.ok(msg.includes('Product: Initial Letter Pen Stand'));
     assert.ok(msg.includes('Quantity: 3'));
-    assert.ok(msg.includes('Unit price: ₹549'));
-    assert.ok(msg.includes('Estimated product subtotal: ₹1,647'));
+    assert.ok(msg.includes('Unit price: ₹649'));
+    assert.ok(msg.includes('Estimated product subtotal: ₹1,947'));
     assert.ok(msg.includes('Preferred colour(s): Lavender & Gold'));
     assert.ok(msg.includes('Name / initial / text: Initial N - Neha'));
     assert.ok(msg.includes('Delivery preference: DTDC courier'));
