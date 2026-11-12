@@ -168,15 +168,7 @@ export const SisterBrandAndFooter = () => {
             <a href="#order" className="hover:text-[#FDFBF7] transition-colors">
               Order Form
             </a>
-            <span>·</span>
-            <a
-              href={STUDIO_INFO.projectZipUrl}
-              download="3d-printing-by-ritika-react-js.zip"
-              className="inline-flex items-center gap-1.5 text-[#E2C2B3] hover:text-[#FDFBF7] underline transition-colors"
-            >
-              <Download className="w-3.5 h-3.5 text-[#C8553D]" />
-              <span>Download React JS Code (.ZIP)</span>
-            </a>
+            <span>·</span> 
           </div>
         </div>
       </footer>
